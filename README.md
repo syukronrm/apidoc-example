@@ -1,7 +1,7 @@
 # API Plan
 
 ```
-Base URL: https://example.tubestream.com
+Base URL: https://example.com
 Headers:
    Content-Type: application/json
    Authorization: Bearer <token>
@@ -69,7 +69,7 @@ HTTP/1.1 200
 ```
 HTTP/1.1 401 Unauthorized
 {
-   "type": "https://example.net/auth-error",
+   "type": "https://example.com/docs/auth-error",
    "title": "Invalid authorization"
 }
 ```
@@ -78,7 +78,7 @@ HTTP/1.1 401 Unauthorized
 ```
 HTTP/1.1 401 Bad Request
 {
-    "type": "https://example.net/validation-error",
+    "type": "https://example.com/docs/validation-error",
     "title": "Your request parameters didn't validate.",
     "invalid-params": [
         {
@@ -97,12 +97,12 @@ HTTP/1.1 401 Bad Request
 
 Langkah-langkah:
 
-1. Definisikan `apidoc.json`.
+1. Definisikan [`apidoc.json`](https://github.com/syukronrm/apidoc-example/blob/master/apidoc.json).
 2. Buat spesifikasinya
 
-    Header dan Common Error ada di `_apidoc.js`.
+    Header dan Common Error ada di [`_apidoc.js`](https://github.com/syukronrm/apidoc-example/blob/master/_apidoc.js).
 
-    Per-endpoint API ada di `UserController.php` dan `CompanyController.php`.
+    Per-endpoint API ada di [`UserController.php`](https://github.com/syukronrm/apidoc-example/blob/master/app/Http/Controllers/UserController.php) dan [`CompanyController.php`](https://github.com/syukronrm/apidoc-example/blob/master/app/Http/Controllers/CompanyController.php).
 
 3. Jalankan apidoc, exclude `/vendor` dan `/apidoc`, output-kan di `/apidoc`.
 
