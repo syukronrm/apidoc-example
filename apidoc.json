@@ -1,0 +1,8 @@
+{
+    "name": "example_app",
+    "version": "0.0.1",
+    "description": "API specification",
+    "title": "example_app API",
+    "url" : "https://example.com",
+    "sampleUrl": "http://localhost:8000"
+}
