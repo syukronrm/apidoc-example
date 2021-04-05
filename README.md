@@ -51,6 +51,7 @@ HTTP/1.1 200
 ```
 
 ## Company
+### Get a company
 ```
 GET /api/company/:id
 
