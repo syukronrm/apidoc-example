@@ -9,6 +9,13 @@ class UserController extends Controller
      * @apiGroup User
      * @apiDescription Create a octg user. This is the description.
      * 
+     * This is a multiline markdown text.
+     * You can add pretty much _anything_.
+     * 
+     * ![Oke](https://media.tenor.com/images/af715c0a6016e077e27d332bb9858966/tenor.gif)
+     * 
+     * Pastikan API tidak ambigu.
+     * 
      * @apiUse DefaultHeader
      * @apiUse DefaultError
      * 
