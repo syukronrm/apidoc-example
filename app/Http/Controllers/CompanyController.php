@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 class CompanyController extends Controller
 {
     /**
-     * @api {post} /api/companies/:id Get a company
+     * @api {get} /api/companies/:id Get a company
      * @apiGroup Company
      * @apiDescription Get a company. This is the description.
      * 

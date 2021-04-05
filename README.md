@@ -95,6 +95,14 @@ HTTP/1.1 401 Bad Request
 
 # Meta
 
+Install apidoc
+```
+npm install -g apidoc
+```
+
+Setup Repo:
+1. ignore `apidoc` di .gitignore
+
 Langkah-langkah:
 
 1. Definisikan [`apidoc.json`](https://github.com/syukronrm/apidoc-example/blob/master/apidoc.json).
